@@ -7,11 +7,12 @@
     <title>Demo Goolge Search Form</title>
 </head>
 <body>
-    <form action="https://www.google.com/search">
+    <form action="https://www.youtube.com/results" method="get">
         Search text:
-        <input type="text" name="q">
+        <input type="text" name="search_query">
         <button type="submit">Search</button>
         
     </form>
 </body>
 </html>
+input
