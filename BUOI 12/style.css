@@ -1,0 +1,49 @@
+img {
+    width: 100%;
+}
+
+ /* 
+ body > div : chi3 ap1 dung5 cho cac1 div là con cuả body, chỉ dưới body 1 cấp
+ */
+body > div {
+    float: left;
+    width: 16%;
+    /* margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 20px;
+    margin-bottom: 20px;  */
+    /* clockwise notation */
+    margin: 20px 2% 20px 2%;
+    transition-duration: 2s;
+    opacity: 0.7;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* 
+h1 + dev : chỉ áp dụng cho 1 thẻ div duy nhất bên dưới h1
+*/
+h1 + div {
+    background-color: bisque;
+}
+
+/* 
+h1 ~ div : áp dụng cho tất cả 
+div nằm dưới h1
+*/
+h1 ~ div {
+    background-color: bisque;
+}
+
+body > div:hover {
+    background-color: coral;
+    opacity: 1.0;
+}
+
+@media screen and (max-width: 1000px)  and (min-width: 700px) {
+    body {
+        background-color: blueviolet;
+    }
+}   
