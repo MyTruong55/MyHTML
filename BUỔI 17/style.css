@@ -1,0 +1,81 @@
+html, body {
+    width: 1000px;
+    height: 1000px;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(196, 199, 175);
+    display: grid;
+    grid-template-areas: 
+    "i1 i2 i2 i3 i4"
+    "i5 i2 i2 i3 i6"
+    "i7 i8 i9 i3 i10"
+    "i11 i11 i11 i3 i12";
+
+    grid-template-columns: 2fr 1fr 2fr 4fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+ 
+
+#item-1 {
+    background-color: purple;
+    grid-area: i1;
+}
+
+#item-2 {
+    background-color: green;
+    grid-area: i2;
+}
+
+#item-3 {
+    background-color: goldenrod;
+    grid-area: i3;
+}
+
+#item-4 {
+    background-color: rgb(223, 137, 137);
+    grid-area: i4;
+}
+
+#item-5 {
+    background-color: mediumblue;
+    grid-area: i5;
+}
+
+#item-6 {
+    background-color: rgb(94, 59, 34);
+    grid-area: i6;
+}
+
+#item-7 {
+    background-color: rgb(53, 1, 50);
+    grid-area: i7;
+}
+
+#item-8 {
+    background-color: rgb(177, 151, 7);
+    grid-area: i8;
+}
+
+#item-9 {
+    background-color: rgb(122, 218, 26);
+    grid-area: i9;
+}
+
+
+#item-10 {
+    background-color: rgb(17, 114, 106);
+    grid-area: i10;
+}
+
+
+#item-11 {
+    background-color: rgb(210, 30, 30);
+    grid-area: i11;
+}
+#item-12 {
+    background-color: rgb(45, 186, 190);
+    grid-area: i12;
+}
+

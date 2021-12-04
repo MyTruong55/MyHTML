@@ -1,0 +1,73 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+h1 {
+    width: 300px;
+    margin: auto;
+}
+
+#flex-container {
+    width: 40%;
+    height: 70%;
+    margin-top: 50px;
+    background-color: coral;
+    margin: auto;
+    display: flex;
+
+    /* flex-direction: row, row reverse, column, column-reverse */
+    flex-direction: row;
+
+    /* main-axiz */
+    /* justify-content: 
+     flex-start
+     flex_end
+     space-around
+     space-between
+     space-evenly
+    */
+    /* justify-content: space-between; */
+/* align-item: canh theo trục phụ dọc */
+     align-items: center; 
+
+    /* flex-wrap: nowrap, wrap, wrap-reverse */
+    /* flex-wrap: wrap */
+
+}
+
+#item-1 {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(69, 80, 80);
+    order: 2;
+    flex-shrink: 2;
+    flex-grow: 1;
+}
+
+#item-2 {
+    width: 50%;
+    height: 50%;
+    background-color: darkviolet;
+    order: 1;
+    flex-shrink: 1;
+    flex-grow: 2;
+    align-self: flex-start;
+}
+
+#item-3 {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(7, 211, 0);
+    order: 3;
+    flex-shrink: 2;
+    flex-grow: 13;
+    align-self: flex-end;
+}
